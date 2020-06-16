@@ -6,8 +6,25 @@
     --backgroundCol: #4B0CE8;
 }
 
+footer {
+    background-color: var(--fourthCol);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: right;
+}
+
+footer img {
+    height: 50px;
+    margin: 5px;
+}
+
 .navbar-custom {
     background-color: var(--fourthCol);
+}
+
+#activeNav {
+    font-weight: bold;
+    color: var(--secondaryCol);
 }
 
 .navbar-custom a {

@@ -56,18 +56,6 @@ hr {
     width: 100%;
 }
 
-footer {
-    background-color: var(--fourthCol);
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    text-align: right;
-}
-
-footer img {
-    height: 50px;
-    margin: 5px;
-}
-
 @media (min-width: 768px) {
     #content {
         margin: 3% 15% 5% 15%;

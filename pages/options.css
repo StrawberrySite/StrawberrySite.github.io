@@ -1,0 +1,37 @@
+body {
+    background-color: var(--backgroundCol);
+}
+
+.card {
+    margin: 4%;
+    border-radius: 32px;
+}
+
+.card-title {
+    font-family: 'Pacifico', cursive;
+    color: var(--primaryCol);
+}
+
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secondaryCol);
+}
+
+.card img {
+    border-radius: 32px 32px 0px 0px;
+}
+
+@media (min-width: 768px) {
+    #content {
+        margin: 3% 15% 5% 15%;
+        background-color: white;
+        border: 1px solid black;
+    }
+    body {
+        background-image: url("images/background.png");
+        background-repeat: repeat;
+    }
+    h1 {
+        font-size: 600%;
+    }
+}

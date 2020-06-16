@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-    <!---------------------------------------------->
-    <!--                                          -->
-    <!--          This website is at              -->
-    <!--               the URL                    -->
-    <!--                                          -->
-    <!--    For it to work properly use that      -->
-    <!--                                          -->
-    <!---------------------------------------------->
-    <title>Strawberries</title>
+    <title>Options | Strawberries</title>
 		<meta charset="utf-8">
 		<meta name="description" content="">
 		<meta name="keywords" content="strawberries, shopping">
@@ -24,14 +16,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!--My CSS-->
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="options.css">
+    <link rel="stylesheet" href="/nav.css">
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-custom">
       <span class="navbar-brand" href="/index.html">
-        <img src="strawberry.png" width="45" height="45" alt="logo">
+        <img src="/strawberry.png" width="45" height="45" alt="logo">
       </span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,10 +32,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" id="activeNav" href="/index.html">Home</a> <!--Deleted this idk what it does: <span class="sr-only">(current)</span>-->
+            <a class="nav-link" href="/index.html">Home</a> <!--Deleted this idk what it does: <span class="sr-only">(current)</span>-->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/pages/options.html">Options</a>
+            <a id="activeNav" class="nav-link" href="/pages/options.html">Options</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/pages/usefulLinks.html">Gallery</a>
@@ -55,46 +47,34 @@
       </div>
     </nav>
 
-    <div id="content">
-      <h1>Strawberries</h1>
-      <img id="mainImg" src="images/strawDad.jpg" alt="fathers day strawberry assortment">
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-      <hr/>
-      <h3>Other Things</h3>
-
-      <!--Grid with images-->
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <img class="gridImgs" src="images/straw1.jpg">
-          </div>
-          <div class="col">
-            <img class="gridImgs" src="images/straw2.jpg">
-          </div>
+    <div class="card">
+        <img class="card-img-top" src="/images/straw1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Name of thing</h5>
+          <h6 class="card-subtitle mb-2 text-muted">$19.99</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-success">Buy Now</a>
         </div>
-        <div class="row">
-          <div class="col">
-            <img class="gridImgs" src="images/straw3.jpg">
-          </div>
-          <div class="col">
-            <img class="gridImgs" src="images/straw4.jpg">
-          </div>
-        </div>
-      </div>
+    </div>
 
-      <!--Two blank lines so nothing is cut off by curved border-->
-      <br/>
-      <br/>
+    <div class="card">
+        <img class="card-img-top" src="/images/straw2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Name of thing</h5>
+          <h6 class="card-subtitle mb-2 text-muted">$19.99</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-success">Buy Now</a>
+        </div>
     </div>
 
     <footer>
-      <img src="images/facebook.png" alt="facebook logo">
+        <img src="/images/facebook.png" alt="facebook logo">
     </footer>
-
+  
     <!--Bootstrap scripts-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-  </body>
+      
+</body>
 </html>
