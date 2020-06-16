@@ -1,0 +1,46 @@
+:root {
+    --primaryCol: #E80C4F;
+    --secondaryCol: #F20CC6;
+    --thirdCol: #B916DB;
+    --fourthCol: #8D0CF2;
+    --backgroundCol: #4B0CE8;
+}
+
+.navbar-custom {
+    background-color: var(--fourthCol);
+}
+
+.navbar-custom a {
+    color: white;
+    padding: 8px;
+}
+
+.navbar-custom a:active { /* idk if this works */
+    background-color: rgb(186, 133, 226);
+}
+
+.navbar-custom .navbar-toggler-icon { /* Something I got from stack overflow to change the color of the button thingy for navigation on mobile  this is the color*/
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: white;
+  } 
+
+  @media (min-width: 768px) {
+    .navbar-custom a:hover {
+        padding: 7px;
+        border-radius: 12px;
+        box-shadow: inset 0px 0px 20px red, 
+                    -3px -3px 20px red,
+                    3px 3px 20px red,
+                    3px -3px 20px red,
+                    -3px 3px 20px red;
+        transition: .5s;
+    }
+
+    .navbar-custom a {
+        border: 2px dotted white;
+        transition: .5s;
+    }
+  }
